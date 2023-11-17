@@ -1,0 +1,103 @@
+/* body{ */
+    /* background-color: green; */
+    /* text-align: center; */
+/* }
+div{
+    background-color: green;
+} */
+/* p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: tomato;
+    
+}
+.first{
+    opacity: .1;
+}
+.second{
+    opacity: .2;
+}
+.third{
+    opacity: .3;
+} */
+
+body{
+    /* background-image: url('./giphy.gif'); */
+    /* background-repeat: repeat-x; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    /* background-attachment: fixed; */
+}
+
+ p{
+    /* outline: 2px dotted green;
+    outline-offset: 15px; */
+
+    /* border: 1px solid gray;
+    text-indent: 20px;
+    text-align: justify;
+    letter-spacing: 3px; */
+    /* outline-style: dotted;
+    outline-color: green; */
+    /* border: 2px dotted blue; */
+    /* border-radius: 20px; */
+    /* margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px; */
+    /* margin: 10px 20px 30px 40px ; */
+    /* padding: 8px;
+    width: 500px; */
+}
+
+div{
+    /* height: 200px;
+    width: 300px;
+    padding: 50px;
+    margin: 20px; */
+    /* max-width: 500px; */
+    /* background-color: powderblue; */
+    font-family: 'Courier New', Courier, monospace;
+    font-style:oblique;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 17px;
+}
+div p{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-decoration-line:underline overline;
+    text-decoration-color: green;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 3px;
+    text-transform: uppercase;
+    line-height: 8;
+    word-spacing: 30px;
+    white-space: wrap;
+    text-shadow: 0 0 3px #f00, 1px 10px 3px #f00;
+}
+a{
+    font-size: 20px;
+}
+a:link{
+    /* color: red; */
+    text-decoration: none;
+    cursor: no-drop;
+}
+a:visited{
+    /* color: green; */
+    text-decoration: none;
+}
+a:hover{
+    /* color: greenyellow; */
+    text-decoration: underline;
+}
+a:active{
+    /* color: blue; */
+    text-decoration: underline;
+    
+}
+ul{
+    list-style: decimal;
+}
