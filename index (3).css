@@ -1,0 +1,63 @@
+.ig{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.container{
+    position: relative;
+}
+.black-box{
+    position: relative;
+    z-index: 1;
+    border: 2px solid black;
+    margin: 30px;
+    height: 100px;
+    margin: 20px;
+}
+.gray-box{
+    position: absolute;
+    z-index: 3;
+    background-color: lightgray;
+    height: 60px;
+    width: 70%;
+    left: 50px;
+    top: 50px;
+}
+.green-box{
+    position: absolute;
+    z-index: 4;
+    background-color: green;
+    width: 35%;
+    left: 270px;
+    top: -15px;
+    height: 100px;
+}
+div{
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    /* overflow: visible; */
+    /* overflow: scroll; */
+    overflow:auto;
+    /* overflow: hidden; */
+}
+.imges{
+    float: right;
+}
+.center{
+    margin: auto;
+    border: 1px solid blue;
+    padding: 10px;
+    width: 60%;
+    text-align: center;
+}
+.img1{
+    display: block;
+    margin: auto;
+}
+.right{
+    border: 1px solid black;
+    float: right;
+}
