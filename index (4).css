@@ -1,0 +1,41 @@
+div p{
+    background-color: blue;
+}
+.div1> p{
+    background-color: skyblue;
+}
+
+.div2 + p{
+    background-color: greenyellow;
+}
+.div3 ~ p{
+    background-color: lightcoral;
+}
+/* p{
+    display: none;
+} */
+.div4:hover p{
+    display: block;
+}
+ /* li:first-child{
+    background-color: grey;
+} */
+/* ul:first-child li{
+    color: aqua;
+} */
+::marker{
+    color: red;
+    font-size: 26px;
+}
+::selection{
+    background-color: pink;
+    color: green;
+    font-size: 20px;
+}
+img{
+    opacity: 0.2;
+}
+img:hover{
+    opacity: 1;
+    
+}
