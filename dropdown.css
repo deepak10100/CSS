@@ -1,0 +1,36 @@
+.dropdown_content{
+    display: none;
+    background-color: grey;
+    width: 10%;
+    padding: -1px 20px;
+    margin-top: 1px;
+    font-size: 20px;
+    color: white;
+
+}
+.dropdown:hover .dropdown_content{
+    display: block;
+}
+.dropdown{
+    display: inline;
+}
+.btn{
+    background-color: rgb(112, 139, 73);
+    color: white;
+    padding: 7px 20px ;
+    cursor: pointer;
+    border: none;
+}
+.dropdown_content a{
+    display: block;
+    color: wheat;
+    padding: 10px 20px;
+    
+    text-decoration: none;
+    /* border: 1px solid black; */
+}
+.dropdown_content a:hover{
+    background-color: goldenrod;
+
+   
+}
