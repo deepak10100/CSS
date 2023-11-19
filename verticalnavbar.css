@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+   
+}
+ul{
+    background-color: grey;
+    list-style: none;
+    width: 20%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 20px;
+}
+ul li a:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+    color: black;
+}
+.sectionA{
+   margin-left: 20%;
+    height: 100%;
+    padding: 1px 16px;
+}
